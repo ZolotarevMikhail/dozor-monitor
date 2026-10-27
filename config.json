@@ -1,0 +1,19 @@
+{
+  "тихие_часы": ["23:00", "08:00"],
+  "sites": [
+    {
+      "name": "Telegram API",
+      "url": "https://api.telegram.org",
+      "keyword": "Telegram"
+    },
+    {
+      "name": "Example.com (тест)",
+      "url": "https://example.com",
+      "keyword": "Example"
+    },
+    {
+      "name": "Тест битого адреса",
+      "url": "https://monitorilka-test-nesyschestvuyuschiy.invalid"
+    }
+  ]
+}

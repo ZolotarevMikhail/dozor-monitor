@@ -1,0 +1,13 @@
+# Секреты и рабочие файлы — не для гита
+.env
+monitor.db
+письма.txt
+log-svodka.txt
+метка-сводки.txt
+бейдж.svg
+статусы.html
+прогон.lock
+venv/
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,12 @@
+[Unit]
+Description=Сторож-приёмник пингов роботов (Дозор)
+After=network.target
+
+[Service]
+WorkingDirectory=/root/monitorilka
+ExecStart=/usr/bin/python3 /root/monitorilka/стук-приёмник.py 8618
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
